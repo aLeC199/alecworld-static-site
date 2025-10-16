@@ -1,0 +1,271 @@
+
+
+body {
+  padding: 0;
+  margin: 0;
+  background-color: rgb(194, 190, 190);
+  height: 100vh;
+  width: 100%;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+    text-align: center;
+}
+header {
+  padding: 0;
+  margin: 0;
+  height: 40vh;
+  width: 100vw;
+  background-color: rgba(54, 54, 54, 0.4);
+  text-align: center;
+  font-size: 13px;
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+}
+header h1{
+  font-size: 50px; 
+  color: black;
+}
+nav {
+  justify-content: right;
+  list-style: none;
+}
+ul,a {
+  list-style: none;
+  gap: 54px;
+  font-weight: bolder;
+  display: flex;
+  flex-direction: row;
+  font-size: larger;
+  color: rgb(255, 255, 255);
+}
+a:hover {
+  color: brown;
+}
+main {
+  background-color: transparent;
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+#mainBody {
+  height: 70%;
+  width: 100%;
+  background: transparent;
+  background-size: cover;
+  gap: 10px;
+}
+h2 {
+  font-size: 40px;
+}
+p {
+  font-size: 16px;
+}
+img{
+  height: 80px;
+}
+footer {
+  margin-top: 10px;
+box-sizing: border-box;
+ width: 100vw;
+  background-color: black;
+  color: antiquewhite;
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+  gap: 7px;
+}
+
+footer input {
+  height: 30px;
+  width: 180px;
+  color: rgb(255, 255, 255);
+  font-weight: normal;
+  font-size: large;
+  font-family: 'Courier New', Courier, monospace;
+  line-height: 20px;
+  outline: none;
+  border: none;
+  background-color: rgba(148, 230, 255, 0.534);
+  border-radius: 3px;
+}
+button {
+  height: 27px;
+  width: 185px;
+  color: black;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: large;
+  outline: none;
+  border: none;
+  border-radius: 3px;
+  background-color: rgba(225, 225, 225, 0.4);
+}
+
+
+
+/* for my contact page*/
+
+
+#space-out{
+  display: grid;
+  gap: 10px;
+  width: 100vw;
+box-sizing: border-box;
+}
+#myHeader{
+  height: 44vh;
+  width: 100vw;
+  background-color: rgba(54, 54, 54, 0.4);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items:flex-end;
+  justify-content: center;
+}
+#myHeader h1{
+  margin: 0;
+  font-size: 48px;
+}
+#profile-box{
+  height: 30vh;
+  width: 190px;
+  background-color:  rgb(194, 190, 190);
+  border-radius: 98px;
+  top: 29vh;
+  position: absolute;
+  overflow: hidden;
+
+}
+#profile-box img{
+  height: 100%;
+  width: 100%;
+}
+#about{
+  margin-top: 20vh;
+  
+  font-size: 20px;
+}
+
+p{
+  font-weight: bold;
+}
+form {
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center ;
+  gap: 12px;
+}
+form input{
+  color: black;
+  line-height: 30px;
+  height: 30px;
+  border-radius: 10px;
+  font-size: large;
+  width: 90%;
+  border: none;
+  outline: none;
+  background-color: aliceblue;
+  
+}
+.shakeInput{
+  border-color: black !important;
+  animation: 0.4s shake linear;
+}
+
+@keyframes shake {
+0%{
+  transform: translate(0px);
+
+}
+25% {
+  transform: translate(30px);
+
+}
+50%{
+  transform: translate(0px);
+}
+75% {
+  transform: translate(-30px);
+
+}
+100% {
+  transform: translate(0px);
+
+}
+}
+
+
+/* About us page*/
+
+section{
+  height: 80vh;
+  width: 100vw;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-x: hidden;
+}
+#footerpart{
+  height: 20vh;
+  width: 100%;
+  background-color:rgba(54, 54, 54, 0.4);
+  color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#profile-box2 {
+  height: 30vh;
+  width: 190px;
+  background-color: rgb(97, 94, 94);
+  border-radius: 98px;
+  position: relative;
+  margin-top: 12px;
+  overflow: hidden;
+
+}
+
+#profile-box img {
+  height: 100%;
+  width: 100%;
+}
+.about-note{
+  display: flex;
+  flex-direction: column;
+}
+section form{
+  width: 90%;
+  height: 90%;
+  border-radius: 12px;
+  background-color: transparent;
+}
+
+section form input{
+  font-weight: normal;
+  font-family: monospace;
+  border: none;
+  outline: none;
+  font-size: 14PX;
+}
+
+
+textarea{
+  color: black;
+    line-height: 20px;
+    height: 60px;
+    border-radius: 10px;
+    font-size: 14px;
+    width: 90%;
+    background-color: aliceblue;
+    outline: none;
+    border: none;
+}
